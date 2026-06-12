@@ -45,7 +45,7 @@ export function Occasions() {
               Designed For<br/>Every Occasion
             </h2>
           </div>
-          <div className="mt-8 md:mt-0 text-espresso font-light text-lg max-w-md">
+          <div className="mt-8 md:mt-0 text-espresso font-bold text-lg max-w-md">
             Whether an intimate dinner for two or a celebration for fifty, our spaces adapt to your narrative.
           </div>
         </motion.div>

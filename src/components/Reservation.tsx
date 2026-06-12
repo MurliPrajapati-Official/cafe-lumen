@@ -22,13 +22,28 @@ export function Reservation() {
             
             <div className="space-y-12">
               <div className="border-t border-ivory/20 pt-6">
-                <h4 className="text-[10px] font-bold text-accent tracking-[0.2em] uppercase mb-2">Location</h4>
-                <p className="text-lg text-ivory/80 font-light">Metro Walk Mall, Sector 10,<br/>Rohini, New Delhi, Delhi 110085</p>
+                <div className="flex justify-between items-start mb-2">
+                  <h4 className="text-[10px] font-bold text-accent tracking-[0.2em] uppercase">Location</h4>
+                  <a href="https://www.google.com/maps/place/Metro+Grill+Restobar+Rohini/@28.7172119,77.1139486,16.29z/data=!4m6!3m5!1s0x390d014553fccb0d:0xc85df1e63a0d1814!8m2!3d28.7173808!4d77.1143699!16s%2Fg%2F119x26pr4?entry=ttu" target="_blank" rel="noopener noreferrer" className="border-b border-ivory/30 pb-0.5 text-[10px] font-bold tracking-[0.2em] uppercase hover:text-ivory hover:border-ivory transition-colors">Get Directions</a>
+                </div>
+                <p className="text-lg text-ivory/80 font-bold mb-6">Metro Walk Mall, Sector 10,<br/>Rohini, New Delhi, Delhi 110085</p>
+                <div className="h-48 md:h-64 w-full border border-ivory/20 relative overflow-hidden bg-[#111111] group">
+                  <iframe 
+                    src="https://maps.google.com/maps?q=Metro+Grill+Restobar+Rohini&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                    width="100%" 
+                    height="100%" 
+                    style={{ border: 0, filter: 'grayscale(1) contrast(1.2) brightness(0.8)' }} 
+                    allowFullScreen 
+                    loading="lazy"
+                    title="Metro Grill Location"
+                    className="opacity-70 mix-blend-screen transition-all duration-700 group-hover:opacity-100 group-hover:mix-blend-normal group-hover:filter-none"
+                  ></iframe>
+                </div>
               </div>
               
               <div className="border-t border-ivory/20 pt-6 border-b pb-6">
                 <h4 className="text-[10px] font-bold text-accent tracking-[0.2em] uppercase mb-2">Direct Contact</h4>
-                <p className="text-lg text-ivory/80 mb-6 font-light">+91 98765 43210</p>
+                <p className="text-lg text-ivory/80 mb-6 font-bold">+91 98765 43210</p>
                 <div className="flex gap-8">
                   <a href="#" className="border-b border-ivory/30 pb-1 text-[11px] font-bold tracking-[0.2em] uppercase hover:border-ivory transition-colors">Call Now</a>
                   <a href="#" className="border-b border-ivory/30 pb-1 text-[11px] font-bold tracking-[0.2em] uppercase hover:border-ivory transition-colors">WhatsApp</a>
@@ -51,17 +66,17 @@ export function Reservation() {
               <div className="grid grid-cols-2 gap-8">
                 <div className="flex flex-col border-b border-border-light pb-2 focus-within:border-primary transition-colors">
                   <label className="text-[10px] font-bold text-stone tracking-[0.2em] uppercase mb-2">Date</label>
-                  <input type="date" className="bg-transparent outline-none font-body text-primary text-xl font-light w-full appearance-none" required />
+                  <input type="date" className="bg-transparent outline-none font-body text-primary text-xl font-bold w-full appearance-none" required />
                 </div>
                 <div className="flex flex-col border-b border-border-light pb-2 focus-within:border-primary transition-colors">
                   <label className="text-[10px] font-bold text-stone tracking-[0.2em] uppercase mb-2">Time</label>
-                  <input type="time" className="bg-transparent outline-none font-body text-primary text-xl font-light w-full appearance-none" required />
+                  <input type="time" className="bg-transparent outline-none font-body text-primary text-xl font-bold w-full appearance-none" required />
                 </div>
               </div>
               
               <div className="flex flex-col border-b border-border-light pb-2 focus-within:border-primary transition-colors">
                 <label className="text-[10px] font-bold text-stone tracking-[0.2em] uppercase mb-2">Guests</label>
-                <select className="bg-transparent outline-none font-body text-primary text-xl font-light w-full appearance-none rounded-none" required>
+                <select className="bg-transparent outline-none font-body text-primary text-xl font-bold w-full appearance-none rounded-none" required>
                   <option value="2">2 Guests</option>
                   <option value="3">3 Guests</option>
                   <option value="4">4 Guests</option>
@@ -73,7 +88,7 @@ export function Reservation() {
 
               <div className="flex flex-col border-b border-border-light pb-2 focus-within:border-primary transition-colors">
                 <label className="text-[10px] font-bold text-stone tracking-[0.2em] uppercase mb-2">Occasion (Optional)</label>
-                <select className="bg-transparent outline-none font-body text-primary text-xl font-light w-full appearance-none rounded-none">
+                <select className="bg-transparent outline-none font-body text-primary text-xl font-bold w-full appearance-none rounded-none">
                   <option value="">Select an occasion</option>
                   <option value="dinner">Regular Dining</option>
                   <option value="birthday">Birthday</option>

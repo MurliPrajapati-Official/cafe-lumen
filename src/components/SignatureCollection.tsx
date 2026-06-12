@@ -16,7 +16,7 @@ export function SignatureCollection() {
             >
               <span className="text-[10px] font-bold text-accent tracking-[0.3em] uppercase block mb-4">Culinary Art</span>
               <h2 className="text-5xl md:text-6xl font-display mb-8">Signature<br/>Collection</h2>
-              <p className="text-espresso font-light text-lg leading-relaxed mb-12">
+              <p className="text-espresso font-bold text-lg leading-relaxed mb-12">
                 A selection of our defining dishes. Each plate is a structured 
                 composition of bold North Indian heritage and modern culinary precision.
               </p>
@@ -48,7 +48,7 @@ export function SignatureCollection() {
                 <h3 className="text-3xl font-display text-primary">Dal Makhani Reserve</h3>
                 <span className="text-[10px] text-accent tracking-[0.2em] font-bold uppercase mt-2 md:mt-0">Signature</span>
               </div>
-              <p className="text-espresso font-light text-lg max-w-2xl">
+              <p className="text-espresso font-bold text-lg max-w-2xl">
                 Slow-cooked for 24 hours over wood fire. Finished with home-churned butter and a hint of smoked garlic. Our interpretation of the classic.
               </p>
             </motion.div>
@@ -72,7 +72,7 @@ export function SignatureCollection() {
                 <h3 className="text-3xl font-display text-primary">Truffle Malai Tikka</h3>
                 <span className="text-[10px] text-accent tracking-[0.2em] font-bold uppercase mt-2 md:mt-0">Chef's Choice</span>
               </div>
-              <p className="text-espresso font-light text-lg max-w-2xl">
+              <p className="text-espresso font-bold text-lg max-w-2xl">
                 Charcoal-roasted chicken steeped in cardamom cream, elevated with white truffle oil and edible silver foil.
               </p>
             </motion.div>

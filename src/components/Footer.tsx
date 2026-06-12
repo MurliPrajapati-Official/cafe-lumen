@@ -7,7 +7,7 @@ export function Footer() {
           
           <div className="lg:col-span-2">
             <h3 className="font-display text-4xl mb-6">Metro Grill</h3>
-            <p className="text-espresso font-light max-w-sm text-lg leading-relaxed mb-8">
+            <p className="text-espresso font-bold max-w-sm text-lg leading-relaxed mb-8">
               A complete social dining destination. Setting the standard for hospitality and celebration in Rohini.
             </p>
           </div>

@@ -14,11 +14,11 @@ export function Hero() {
             <span className="text-accent text-[11px] uppercase tracking-[0.3em] font-bold mb-6 block">
               Premier Restobar & Social Dining
             </span>
-            <h1 className="text-primary font-display text-5xl md:text-7xl lg:text-8xl leading-[0.9] mb-8 font-medium">
+            <h1 className="text-primary font-display text-5xl md:text-7xl lg:text-8xl leading-[0.9] mb-8 font-bold">
               Where Rohini<br/>
               <span className="italic text-accent">Celebrates.</span>
             </h1>
-            <p className="text-espresso max-w-md text-lg leading-relaxed font-light mb-12">
+            <p className="text-espresso max-w-md text-lg leading-relaxed font-bold mb-12">
               A complete social dining destination. From milestone birthdays to intimate date nights, we curate the moments that define your life.
             </p>
             

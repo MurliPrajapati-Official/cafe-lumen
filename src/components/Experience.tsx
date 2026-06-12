@@ -71,7 +71,7 @@ export function Experience() {
               >
                 <span className="text-[10px] font-bold text-accent tracking-[0.2em] mb-4 block">0{idx + 1}</span>
                 <h3 className="text-4xl md:text-5xl font-display mb-6 text-primary">{exp.title}</h3>
-                <p className="text-espresso font-light text-lg leading-relaxed mb-10 max-w-sm">
+                <p className="text-espresso font-bold text-lg leading-relaxed mb-10 max-w-sm">
                   {exp.desc}
                 </p>
                 <div>
