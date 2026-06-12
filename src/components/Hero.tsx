@@ -50,12 +50,12 @@ export function Hero() {
 
         {/* Right Side: Image */}
         <div className="col-span-1 md:col-span-5 relative min-h-[50vh] md:min-h-full">
-          <div className="absolute inset-0 bg-espresso flex items-center justify-center overflow-hidden">
+          <div className="absolute inset-0 bg-black flex items-center justify-center overflow-hidden">
             <motion.div 
               initial={{ scale: 1.1, opacity: 0 }}
               animate={{ scale: 1, opacity: 0.8 }}
               transition={{ duration: 2, ease: "easeOut" }}
-              className="w-full h-full bg-cover bg-center mix-blend-overlay"
+              className="w-full h-full bg-cover bg-center"
               style={{ backgroundImage: "url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop')" }}
             />
             {/* Design overlap badge */}
